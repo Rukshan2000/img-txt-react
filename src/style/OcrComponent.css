@@ -1,0 +1,133 @@
+body {
+    background-color: #282c34;
+}
+
+.ocr-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.topic {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.description {
+    font-size: 16px;
+    color: #dadada;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.dropzone {
+    margin-top: 50px;
+    border: 2px dashed #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    color: #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+
+.progress-bar {
+    width: 30%;
+    background-color: #353a44;
+    height: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #dadada;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #353a44;
+    font-weight: bold;
+    transition: width 0.3s ease-in-out;
+}
+
+.text-display {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.text-display h2 {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.text-display pre {
+    background-color: #353a44;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    white-space: pre-wrap;
+}
+.button-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.button-container button {
+    background-color: #323640;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button-container button:hover {
+    background-color: #444a54;
+}
+
+
+
+.footer {
+    background-color: #323640;
+    padding: 10px;
+    min-width: 100%;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px; /* Adjust this value */
+    margin-bottom: 0; /* Add this line to remove bottom margin */
+}
+.footer a {
+    color: #ccc; /* Set the desired text color for the link */
+    text-decoration: none; /* Remove the underline */
+}
+
+.footer a:hover {
+    font-weight: bolder;
+    color: rgb(31, 169, 68);
+}
+
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .ocr-container {
+        margin: 10px;
+    }
+    
+    .progress-bar {
+        width: 60%;
+    }
+    
+    .text-display pre {
+        padding: 5px;
+    }
+}
