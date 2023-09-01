@@ -103,12 +103,12 @@ body {
     min-width: 100%;
     color: #ffffff;
     text-align: center;
-    margin-top: 10px; /* Adjust this value */
-    margin-bottom: 0; /* Add this line to remove bottom margin */
+    margin-top: 10px; 
+    margin-bottom: 0; 
 }
 .footer a {
-    color: #ccc; /* Set the desired text color for the link */
-    text-decoration: none; /* Remove the underline */
+    color: #ccc; 
+    text-decoration: none; 
 }
 
 .footer a:hover {
